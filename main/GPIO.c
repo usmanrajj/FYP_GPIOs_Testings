@@ -10,7 +10,7 @@ void blink_led()
 {
     bool s_led_state=0;
     while (1)
-    {    // this is commit test
+    {  
     /* Set the GPIO level according to the state (LOW or HIGH)*/
     gpio_set_level(BLINK_GPIO1, s_led_state);
     gpio_set_level(BLINK_GPIO2, s_led_state);

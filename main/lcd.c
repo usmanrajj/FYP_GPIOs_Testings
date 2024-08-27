@@ -31,7 +31,7 @@ void display()
 	SSD1306_t dev;
 	int center, top, bottom;
 	char lineChar[20];
-
+	
 #if CONFIG_I2C_INTERFACE
 	ESP_LOGI(tag, "INTERFACE is i2c");
 	ESP_LOGI(tag, "CONFIG_SDA_GPIO=%d",CONFIG_SDA_GPIO);

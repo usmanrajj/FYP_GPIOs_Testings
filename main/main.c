@@ -32,6 +32,6 @@ void app_main(void)
     configure_led();
 
     xTaskCreate(blink_led, "blink led", 1024 ,NULL, 1, NULL);
-    //xTaskCreate(display, "display",1024, NULL,2,NULL);
+    
     display();
 }
